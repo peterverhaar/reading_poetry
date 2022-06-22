@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'Reading Poetry',
   packages = ['reading_poetry'],
-  version = '0.1.1',
+  version = '0.1.2',
   license='MIT',
   description = 'Tool for the computational analysis of poetry',
   author = 'Peter Verhaar',
