@@ -8,9 +8,9 @@ setup(
   author = 'Peter Verhaar',
   author_email = 'peter.verhaar@gmail.com',
   url = 'https://github.com/peterverhaar/reading_poetry',
-  download_url = 'https://github.com/peterverhaar/tdmh/archive/refs/tags/0.1.7.tar.gz',
+  download_url = 'https://github.com/peterverhaar/reading_poetry/archive/refs/tags/0.1.1.tar.gz',
   keywords = ['NLP', 'Digital Humanities', 'Text Mining','Computational literary studies'],
-  install_requires=[],
+  install_requires=[ 'os','re', 'urllib' ,'xml', 'nltk' , 'json','pyvis','sklearn' ],
   classifiers=[
     'Development Status :: 3 - Alpha',
     'Intended Audience :: Developers',
